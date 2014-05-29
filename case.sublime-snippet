@@ -1,11 +1,11 @@
 <snippet>
 	<content><![CDATA[
-case ${1:variable}
-	when ${2:value}
+CASE ${1:variable}
+	WHEN ${2:value}
 		${3:# sentences...}
-	otherwise
+	OTHERWISE
 		${4:# sentences...}
-end case
+END CASE
 
 ]]></content>
 	<tabTrigger>case</tabTrigger>
